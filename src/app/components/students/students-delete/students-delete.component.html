@@ -1,0 +1,34 @@
+
+<mat-card class="card">
+    <mat-card-header>
+        <mat-card-title class="title">Excluir</mat-card-title>
+    </mat-card-header>
+    <form>
+        <mat-form-field>
+            <mat-label>Nome</mat-label>
+            <input matInput [(ngModel)]="student.nome" name="nome" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Sobrenome</mat-label>
+            <input matInput [(ngModel)]="student.sobrenome" name="sobrenome" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Idade</mat-label>
+            <input matInput [(ngModel)]="student.idade" name="idade" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Sexo</mat-label>
+            <input matInput placeholder="M" [(ngModel)]="student.sexo" name="sexo" disabled>
+        </mat-form-field>
+    </form>
+    <mat-card-actions align="end">
+      <button mat-raised-button (click)="deleteStudent()" color="accent">Excluir</button>
+      <button mat-raised-button (click)="cancel()" color="secundary">Cancelar</button>
+    </mat-card-actions>
+  </mat-card>
+
+
+
+
+
+

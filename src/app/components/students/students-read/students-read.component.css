@@ -1,0 +1,25 @@
+/* table {
+    width: 100%;
+} */
+.edit {
+    margin-right: 15px;
+}
+.edit > i {
+    color: #d9cd26;
+}
+.delete > i {
+    color: #e35e6b;
+}
+.thead {
+text-align: center;
+
+}
+.tr {
+text-align: center;
+
+
+}
+.card {
+    padding: 20px;
+    margin: 20px;
+}
