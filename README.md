@@ -1,6 +1,6 @@
 # Frontend
 <p align="center">
-  <img width="470" src="src/assets/capture.png">
+  <img width="700" src="src/assets/capture.png">
 </p>
 <p align="center">
   <img height="700" src="src/assets/front.gif">
