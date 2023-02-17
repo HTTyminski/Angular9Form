@@ -3,7 +3,7 @@
   <img width="470" src="src/assets/capture.png">
 </p>
 <p align="center">
-  <img src="src/assets/front.gif">
+  <img height="700" src="src/assets/front.gif">
 </p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
